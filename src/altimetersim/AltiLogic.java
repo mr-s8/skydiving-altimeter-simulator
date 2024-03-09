@@ -107,9 +107,9 @@ public class AltiLogic {
         Thread pullThread = new Thread(() -> { // still a pretty fast opening
             this.startPhase = false;
             this.freeFallRate = 40;
-            sleep(500);
+            sleep(1000);
             this.freeFallRate = 30;
-            sleep(500);
+            sleep(1500);
             this.freeFallRate = 20;
             sleep(250);
             this.freeFallRate = 10;
