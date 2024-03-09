@@ -10,7 +10,7 @@
 This program simulates a skydive. It should help to internalize regular height checks. In later versions, you should be able to practice making decisions in emergency situations.
 
 
-# ToDo
+## ToDo
 - add function to toggle between meters and feet
 - allow user to turn backlight on and off
 - allow user to set different freefallrates for freefly, speedfly etc
