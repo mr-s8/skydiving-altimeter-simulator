@@ -7,7 +7,7 @@
 
 
 # skydiving-altimeter-simulator
-This program simulates a skydive. The values on the altimeter are realistic values when falling in the belly position
+This program simulates a skydive. It should help to internalize regular height checks. In later versions, you should be able to practice making decisions in emergency situations.
 
 
 # ToDo
