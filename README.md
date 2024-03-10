@@ -1,6 +1,6 @@
 <div align="center">
   <p>
-    <a href="https://github.com/mr-s8/skydiving-altimeter-simulator/blob/main/images/google_emoji.png"><img src="https://github.com/mr-s8/skydiving-altimeter-simulator/blob/main/images/google_emoji.png" width="300" alt="skydiving emoji" /></a>
+    <a href="https://github.com/mr-s8/skydiving-altimeter-simulator/blob/main/images/google_emoji.png"><img src="https://github.com/mr-s8/skydiving-altimeter-simulator/blob/main/images/google_emoji.png" width="250" alt="skydiving emoji" /></a>
   </p>
 </div>
 
