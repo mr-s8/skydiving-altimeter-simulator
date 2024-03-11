@@ -19,7 +19,7 @@ This program simulates a skydive. It should help to internalize regular height c
 - make it a bit of a game, so that the user has to train decision making -> malfunctions; biplane/downplane situation (for example when you pull too low and aad fires)
 - give feedback on screen, what went well, how long it took, what could be better etc
 - show freefallrate
-- when pulling while acceleration phase, the freefallrate goes up temporarily -> add another pull behaviour or work with percentages from current freefallrate
+- when pulling in the acceleration phase, the freefallrate goes up temporarily -> add another pull behaviour or work with percentages from current freefallrate
 
 ## Pictures
 <div align="center">
