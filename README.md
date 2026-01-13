@@ -7,7 +7,18 @@
 
 
 # skydiving-altimeter-simulator
-This program simulates a skydive. It should help to internalize regular height checks. In later versions, you should be able to practice making decisions in emergency situations.
+This program simulates the behavior of an electronic altimeter during a skydive. It should help to internalize regular height checks. In later versions, you should be able to practice making decisions in emergency situations.
+The design of the altimeter is based on the Viso 2+ from Larsen & Brusgaard.
+
+
+## ❗ New version:
+- All GUI updates now run on the Swing Event Dispatch Thread (EDT), making the application fully thread-safe and stable.
+- The project now follows a clean Model–View–Controller design
+- Instead of fixed per-tick updates, the simulator now uses delta-time–based physics, similar to a game engine:
+  - Acceleration depends on gravity and air resistance
+  - Velocity evolves continuously
+  - Altitude is integrated from velocity
+  - Parachute opening is modeled using changing drag over time
 
 
 ## ToDo
@@ -19,7 +30,7 @@ This program simulates a skydive. It should help to internalize regular height c
 - make it a bit of a game, so that the user has to train decision making -> malfunctions; biplane/downplane situation (for example when you pull too low and aad fires)
 - give feedback on screen, what went well, how long it took, what could be better etc
 - show freefallrate
-- to fix: when pulling in the acceleration phase, the freefallrate goes up temporarily -> add another pull behaviour or work with percentages from current freefallrate
+✔️ to fix: when pulling in the acceleration phase, the freefallrate goes up temporarily -> add another pull behaviour or work with percentages from current freefallrate
 
 ## Pictures
 <div align="center">
