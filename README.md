@@ -13,7 +13,7 @@ The design of the altimeter is based on the Viso 2+ from Larsen & Brusgaard.
 
 ## ❗ New version:
 - All GUI updates now run on the Swing Event Dispatch Thread (EDT), making the application fully thread-safe and stable.
-- The project now follows a clean Model–View–Controller design
+- The project now follows a clean Model-View-Controller design
 - Instead of fixed per-tick updates, the simulator now uses delta-time–based physics, similar to a game engine:
   - Acceleration depends on gravity and air resistance
   - Velocity evolves continuously
